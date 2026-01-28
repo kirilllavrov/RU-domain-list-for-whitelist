@@ -40,7 +40,7 @@
 
 **В `geosite.dat`:**
 
-- **category-whitelist-ru (category-ru)**: известные домены, включённые в «Белые списки» у всех операторов
+- **whitelist-ru (category-ru)**: известные домены, включённые в «Белые списки» у всех операторов
 - **category-ads-all**: рекламные домены (AdguardFilterDNS, PeterLoweFilter и v2fly/domain-list-community)
 - **private**: приватные домены
 
