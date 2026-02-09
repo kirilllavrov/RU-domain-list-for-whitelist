@@ -44,6 +44,7 @@ include:mailru
 include:max
 include:megafon
 include:megamarket
+include:mindbox
 include:moex
 include:motivtelecom
 include:mts
@@ -51,6 +52,7 @@ include:newizv
 include:ngenix
 include:ntv
 include:ok
+include:okko
 include:ozon
 include:playfamily
 include:pochtaru
@@ -84,8 +86,8 @@ include:vkusnoitochka
 include:vkusvill
 include:vtb
 include:wb
+include:whoosh
 include:wink
 include:x5
 include:yandex
 include:zentotem
-
