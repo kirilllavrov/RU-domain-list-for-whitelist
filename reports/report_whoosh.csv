@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-00:09:06,whoosh.bike,OK,200,HEAD,2564.5,OK
-00:09:06,api.whoosh.bike,DNS_ERR,0,GET,0,DNS timeout

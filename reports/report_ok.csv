@@ -1,5 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-00:09:06,ok.ru,DNS_ERR,0,-,0,Domain not resolved
-00:09:06,mycdn.me,DNS_ERR,0,-,0,Domain not resolved
-00:09:06,okcdn.ru,DNS_ERR,0,-,0,Domain not resolved
-00:09:06,apptracer.ru,DNS_ERR,0,-,0,Domain not resolved

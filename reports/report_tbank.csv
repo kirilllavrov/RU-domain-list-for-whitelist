@@ -1,4 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-00:09:06,tbank.ru,DNS_ERR,0,GET,0,DNS timeout
-00:09:06,cdn-tinkoff.ru,HTTP_ERR,403,GET,2073.5,403 Forbidden
-00:09:06,tbank-online.com,DNS_ERR,0,GET,0,DNS timeout

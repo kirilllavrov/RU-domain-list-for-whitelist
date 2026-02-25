@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-00:09:06,domclick.ru,OK,200,HEAD,3419.0,OK
-00:09:06,dmclk.ru,SSL_ERR,0,GET,0,SSL handshake failed

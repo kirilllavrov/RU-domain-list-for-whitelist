@@ -1,4 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-00:09:06,rostics.ru,DNS_ERR,0,-,0,Domain not resolved
-00:09:06,uni.rest,DNS_ERR,0,-,0,Domain not resolved
-00:09:06,unirest.tech,DNS_ERR,0,-,0,Domain not resolved

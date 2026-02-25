@@ -1,4 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-00:09:06,magnit.ru,HTTP_ERR,503,HEAD,2513.5,503 Service Temporarily Unavailable
-00:09:06,mm.ru,OK,200,HEAD,3119.6,OK
-00:09:06,kazanexpress.ru,OK,200,HEAD,10616.4,OK

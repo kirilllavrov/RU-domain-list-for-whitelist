@@ -1,4 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-00:09:06,2gis.com,OK,200,HEAD,5773.4,OK
-00:09:06,2gis.ru,DNS_ERR,0,GET,0,DNS timeout
-00:09:06,2gis.ae,OK,200,HEAD,7445.3,OK
