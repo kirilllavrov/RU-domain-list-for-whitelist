@@ -1,4 +1,4 @@
-# All .yandex domains
+#All .yandex domains
 
 яндекс.рф
 xn--d1acpjx3f.xn--p1ai
@@ -13,20 +13,20 @@ yandex-team.ru
 yandex.aero
 yandex.az
 yandex.by
-yandex.cloud
+#yandex.cloud
 yandex.co.il
 yandex.com
 yandex.com.am
 yandex.com.ge
 yandex.com.ru
-yandex.com.tr
+#yandex.com.tr
 yandex.de
 yandex.ee
 yandex.eu
 yandex.fi
 yandex.fr
 yandex.jobs
-# yandex.kz
+#yandex.kz
 yandex.lt
 yandex.lv
 yandex.md
@@ -37,16 +37,16 @@ yandex.ru
 yandex.st
 yandex.tj
 yandex.tm
-yandex.tr
+#yandex.tr
 yandex.uz
 yandexadexchange.net
 yastat.net
 yastatic.net
-skcrtxr.com
+#skcrtxr.com
 
 # Watching movies, included in the Yandex subscription
 kinopoisk.ru
 kinopoisk-ru.clstorage.net
 
 # Stories feed in the mobile app
-inappstory.ru
+#inappstory.ru

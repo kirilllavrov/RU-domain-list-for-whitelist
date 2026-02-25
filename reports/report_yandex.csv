@@ -1,0 +1,47 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,All .yandex domains,DNS_ERR,0,-,0,Domain not resolved
+00:09:06,яндекс.рф,OK,200,HEAD,11558.9,Ok
+00:09:06,xn--d1acpjx3f.xn--p1ai,OK,200,HEAD,15101.2,OK
+00:09:06,adfox.ru,OK,200,HEAD,6554.4,Ok
+00:09:06,rostaxi.org,HTTP_ERR,404,HEAD,5440.4,404 Not Found
+00:09:06,turbopages.org,HTTP_ERR,404,HEAD,7759.1,404 Not found
+00:09:06,webvisor.com,OK,200,HEAD,7844.4,OK
+00:09:06,ya.ru,OK,200,HEAD,13915.1,OK
+00:09:06,yandex-images.clstorage.net,HTTP_ERR,403,GET,624.9,403 Forbidden
+00:09:06,yandex-team.ru,OK,200,HEAD,7403.4,OK
+00:09:06,yandex.aero,OK,200,HEAD,10089.6,OK
+00:09:06,yandex.az,OK,200,HEAD,2585.6,Ok
+00:09:06,yandex.by,OK,200,HEAD,2418.2,Ok
+00:09:06,yandex.cloud,DNS_ERR,0,GET,0,DNS timeout
+00:09:06,yandex.co.il,OK,200,HEAD,2037.6,Ok
+00:09:06,yandex.com,OK,200,HEAD,2241.5,Ok
+00:09:06,yandex.com.am,OK,200,HEAD,3102.5,Ok
+00:09:06,yandex.com.ge,OK,200,HEAD,2451.6,Ok
+00:09:06,yandex.com.ru,OK,200,HEAD,12665.2,Ok
+00:09:06,yandex.com.tr,DNS_ERR,0,GET,0,DNS timeout
+00:09:06,yandex.de,OK,200,HEAD,4059.4,Ok
+00:09:06,yandex.ee,OK,200,HEAD,5261.1,Ok
+00:09:06,yandex.eu,OK,200,HEAD,4031.6,Ok
+00:09:06,yandex.fi,OK,200,HEAD,3845.7,Ok
+00:09:06,yandex.fr,OK,200,HEAD,4884.2,Ok
+00:09:06,yandex.jobs,OK,200,HEAD,5589.3,OK
+00:09:06,yandex.kz,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,yandex.lt,OK,200,GET,4119.2,Ok
+00:09:06,yandex.lv,HTTP_ERR,400,GET,3650.1,400 Bad request
+00:09:06,yandex.md,OK,200,HEAD,2804.0,Ok
+00:09:06,yandex.net,OK,200,HEAD,5130.3,Ok
+00:09:06,yandex.org,OK,200,HEAD,5112.0,Ok
+00:09:06,yandex.pl,OK,200,HEAD,4989.9,Ok
+00:09:06,yandex.ru,HTTP_ERR,0,GET,0,Response error 400
+00:09:06,yandex.st,OK,200,HEAD,6476.4,
+00:09:06,yandex.tj,OK,200,GET,993.1,Ok
+00:09:06,yandex.tm,OK,200,HEAD,2972.8,Ok
+00:09:06,yandex.tr,DNS_ERR,0,GET,0,DNS timeout
+00:09:06,yandex.uz,OK,200,HEAD,2888.0,Ok
+00:09:06,yandexadexchange.net,OK,200,HEAD,7736.7,OK
+00:09:06,yastat.net,OK,200,HEAD,5900.9,
+00:09:06,yastatic.net,OK,200,HEAD,11418.4,
+00:09:06,skcrtxr.com,DNS_ERR,0,GET,0,DNS timeout
+00:09:06,kinopoisk.ru,OK,200,GET,4264.8,OK
+00:09:06,kinopoisk-ru.clstorage.net,HTTP_ERR,403,GET,1027.8,403 Forbidden
+00:09:06,inappstory.ru,DNS_ERR,0,GET,0,DNS timeout

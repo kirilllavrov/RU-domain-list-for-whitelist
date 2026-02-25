@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,vtb.ru,HTTP_ERR,503,HEAD,5782.9,503 Service Temporarily Unavailable

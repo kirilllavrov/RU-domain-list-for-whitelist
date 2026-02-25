@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,motivtelecom.ru,DNS_ERR,0,-,0,Domain not resolved

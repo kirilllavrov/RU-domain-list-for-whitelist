@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,ngenix.net,DNS_ERR,0,-,0,Domain not resolved
+00:09:06,wink.ru,OK,200,HEAD,4196.0,OK
+00:09:06,restream-media.net,DNS_ERR,0,-,0,Domain not resolved

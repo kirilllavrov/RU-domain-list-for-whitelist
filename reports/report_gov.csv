@@ -1,0 +1,35 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,Federal Gov.,DNS_ERR,0,-,0,Domain not resolved
+00:09:06,digital.gov.ru,OK,200,HEAD,3335.3,OK
+00:09:06,government.ru,DNS_ERR,0,GET,0,DNS timeout
+00:09:06,gov.ru,DNS_ERR,0,GET,0,DNS timeout
+00:09:06,mchs.gov.ru,OK,200,HEAD,2879.7,OK
+00:09:06,xn--b1aew.xn--p1ai,HTTP_ERR,503,HEAD,4495.5,503 Service Temporarily Unavailable
+00:09:06,xn----7sb7akeedqd.xn--p1ai,OK,200,HEAD,5750.9,OK
+00:09:06,kremlin.ru,DNS_ERR,0,GET,0,DNS timeout
+00:09:06,gosuslugi.ru,OK,200,HEAD,1914.9,OK
+00:09:06,gu-st.ru,DNS_ERR,0,GET,0,DNS timeout
+00:09:06,emias.info,OK,200,HEAD,2693.5,OK
+00:09:06,mgfoms.ru,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,edu.ru,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,cbr.ru,OK,200,HEAD,3880.6,OK
+00:09:06,nalog.ru,OK,200,HEAD,6708.4,OK
+00:09:06,cikrf.ru,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,izbirkom.ru,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,mos.ru,OK,200,HEAD,5867.5,OK
+00:09:06,mosreg.ru,OK,200,HEAD,4049.8,OK
+00:09:06,spb.ru,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,sevastopol.ru,DNS_ERR,0,-,0,Domain not resolved
+00:09:06,kchr.ru,OK,200,HEAD,2606.9,OK
+00:09:06,tatarstan.ru,OK,200,HEAD,6069.6,OK
+00:09:06,krd.ru,OK,200,HEAD,2391.9,OK
+00:09:06,i-ola.ru,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,vlc.ru,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,xn--80acgfbsl1azdqr.xn--p1ai,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,kemerovo.ru,OK,200,HEAD,2175.9,OK
+00:09:06,kursk.ru,OK,200,HEAD,1651.6,OK
+00:09:06,xn--80aacoonefzg3am8b1fsb.xn--p1ai,OK,200,HEAD,5089.3,OK
+00:09:06,pskov.ru,OK,200,HEAD,13621.1,OK
+00:09:06,er.ru,DNS_ERR,0,GET,0,DNS timeout
+00:09:06,ldpr.ru,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,newpeople.ru,SSL_ERR,0,GET,0,SSL handshake failed

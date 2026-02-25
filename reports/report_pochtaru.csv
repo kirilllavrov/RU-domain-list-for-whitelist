@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,pochta.ru,OK,200,HEAD,10575.4,OK
+00:09:06,russianpost.ru,DNS_ERR,0,-,0,Domain not resolved
+00:09:06,mobileapp.russianpost.ru,DNS_ERR,0,-,0,Domain not resolved

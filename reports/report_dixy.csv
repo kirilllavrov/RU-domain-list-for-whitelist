@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,dixy.ru,OK,200,HEAD,2811.0,OK

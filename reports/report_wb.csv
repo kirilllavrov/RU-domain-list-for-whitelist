@@ -1,0 +1,3 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,wb.ru,HTTP_ERR,498,HEAD,6895.7,498 
+00:09:06,wildberries.ru,HTTP_ERR,498,HEAD,5702.6,498 

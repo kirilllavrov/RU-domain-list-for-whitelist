@@ -1,0 +1,3 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,gismeteo.ru,DNS_ERR,0,GET,0,DNS timeout
+00:09:06,gismeteo.st,DNS_ERR,0,-,0,Domain not resolved

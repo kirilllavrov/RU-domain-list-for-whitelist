@@ -1,0 +1,5 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,1cfresh.com,OK,200,HEAD,7552.7,
+00:09:06,1c.ru,OK,200,HEAD,2446.6,OK
+00:09:06,bitrix24.ru,OK,200,HEAD,7117.1,OK
+00:09:06,1c-bitrix.ru,DNS_ERR,0,GET,0,DNS timeout

@@ -1,0 +1,6 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:09:06,dodopizza.ru,OK,200,HEAD,2103.1,OK
+00:09:06,dodopizza.com,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,dodostatic.net,DNS_ERR,0,-,0,Domain not resolved
+00:09:06,dodois.com,SSL_ERR,0,GET,0,SSL handshake failed
+00:09:06,dodois.io,DNS_ERR,0,-,0,Domain not resolved
