@@ -1,4 +1,4 @@
-#All .yandex domains
+#All yandex domains
 
 яндекс.рф
 xn--d1acpjx3f.xn--p1ai
@@ -13,7 +13,7 @@ yandex-team.ru
 yandex.aero
 yandex.az
 yandex.by
-#yandex.cloud
+yandex.cloud
 yandex.co.il
 yandex.com
 yandex.com.am
@@ -49,4 +49,4 @@ kinopoisk.ru
 kinopoisk-ru.clstorage.net
 
 # Stories feed in the mobile app
-#inappstory.ru
+inappstory.ru

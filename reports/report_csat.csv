@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:43:00,csat.ru,OK,200,HEAD,890.7,OK

@@ -1,0 +1,3 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:43:00,www.drweb.ru,OK,200,HEAD,376.8,okay
+00:43:00,www.drweb.com,SSL_ERR,0,GET,0,SSL handshake failed

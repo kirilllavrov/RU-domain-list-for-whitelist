@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:43:00,vgtrk.ru,OK,200,HEAD,335.6,OK

@@ -1,0 +1,47 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:43:00,yandex.tr,SSL_ERR,0,GET,0,SSL handshake failed
+00:43:00,All .yandex domains,DNS_ERR,0,-,0,Domain not resolved
+00:43:00,яндекс.рф,OK,200,HEAD,950.0,Ok
+00:43:00,xn--d1acpjx3f.xn--p1ai,OK,200,HEAD,664.4,Ok
+00:43:00,adfox.ru,OK,200,HEAD,1033.0,Ok
+00:43:00,rostaxi.org,HTTP_ERR,404,HEAD,833.7,404 Not Found
+00:43:00,turbopages.org,HTTP_ERR,404,HEAD,411.8,404 Not found
+00:43:00,webvisor.com,OK,200,HEAD,363.1,OK
+00:43:00,ya.ru,OK,200,HEAD,423.5,Ok
+00:43:00,yandex-images.clstorage.net,HTTP_ERR,403,GET,85.7,403 Forbidden
+00:43:00,yandex-team.ru,OK,200,HEAD,1172.4,OK
+00:43:00,yandex.aero,OK,200,HEAD,1233.1,OK
+00:43:00,yandex.az,OK,200,HEAD,468.3,Ok
+00:43:00,yandex.by,OK,200,HEAD,504.0,Ok
+00:43:00,yandex.cloud,OK,200,GET,693.6,OK
+00:43:00,yandex.co.il,OK,200,HEAD,487.5,Ok
+00:43:00,yandex.com,OK,200,HEAD,478.8,Ok
+00:43:00,yandex.com.am,OK,200,HEAD,478.3,Ok
+00:43:00,yandex.com.ge,OK,200,HEAD,336.7,Ok
+00:43:00,yandex.com.ru,OK,200,HEAD,665.6,Ok
+00:43:00,yandex.com.tr,SSL_ERR,0,GET,0,SSL handshake failed
+00:43:00,yandex.de,OK,200,HEAD,954.5,Ok
+00:43:00,yandex.ee,OK,200,HEAD,750.5,Ok
+00:43:00,yandex.eu,OK,200,HEAD,711.8,Ok
+00:43:00,yandex.fi,OK,200,HEAD,714.8,Ok
+00:43:00,yandex.fr,OK,200,HEAD,1025.6,OK
+00:43:00,yandex.jobs,OK,200,HEAD,972.4,OK
+00:43:00,yandex.kz,RST,0,GET,0,Connection refused
+00:43:00,yandex.lt,OK,200,HEAD,642.0,Ok
+00:43:00,yandex.lv,OK,200,HEAD,551.8,Ok
+00:43:00,yandex.md,OK,200,HEAD,416.6,Ok
+00:43:00,yandex.net,OK,200,HEAD,705.4,Ok
+00:43:00,yandex.org,OK,200,HEAD,710.1,Ok
+00:43:00,yandex.pl,OK,200,GET,399.6,Ok
+00:43:00,yandex.ru,OK,200,GET,799.5,OK
+00:43:00,yandex.st,OK,200,HEAD,1072.4,
+00:43:00,yandex.tj,OK,200,HEAD,330.3,Ok
+00:43:00,yandex.tm,OK,200,HEAD,437.1,Ok
+00:43:00,yandex.uz,OK,200,HEAD,413.6,Ok
+00:43:00,yandexadexchange.net,OK,200,HEAD,295.5,OK
+00:43:00,yastat.net,OK,200,HEAD,1063.0,
+00:43:00,yastatic.net,OK,200,HEAD,990.8,Ok
+00:43:00,skcrtxr.com,DNS_ERR,0,GET,0,DNS timeout
+00:43:00,kinopoisk.ru,OK,200,HEAD,1015.0,OK
+00:43:00,kinopoisk-ru.clstorage.net,HTTP_ERR,403,GET,53.5,403 Forbidden
+00:43:00,inappstory.ru,OK,200,HEAD,648.1,OK

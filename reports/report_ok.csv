@@ -1,0 +1,5 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:43:00,apptracer.ru,OK,200,HEAD,313.1,OK
+00:43:00,ok.ru,OK,200,HEAD,253.2,
+00:43:00,mycdn.me,HTTP_ERR,403,GET,246.3,403 Forbidden
+00:43:00,okcdn.ru,HTTP_ERR,403,GET,158.5,403 Forbidden

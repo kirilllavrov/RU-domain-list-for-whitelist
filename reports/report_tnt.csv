@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:43:00,tnt-online.ru,OK,200,HEAD,346.8,OK

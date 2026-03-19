@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+00:43:00,fastvps.ru,OK,200,HEAD,379.1,OK
