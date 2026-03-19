@@ -6,7 +6,7 @@ from collections import defaultdict
 # Укажите путь к директории, где находятся файлы с IP-адресами.
 # Пример: INPUT_DIRECTORY = r"C:\path\to\your\ip_files"
 # Для текущей директории можно указать "." или ""
-INPUT_DIRECTORY = "IPсhecked"
+INPUT_DIRECTORY = "IPchecked"
 # -----------------
 
 # Проверяем, существует ли указанная директория

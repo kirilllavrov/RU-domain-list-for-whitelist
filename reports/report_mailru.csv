@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-00:43:00,mail.ru,OK,200,HEAD,263.1,OK
-00:43:00,imgsmail.ru,OK,200,HEAD,675.4,OK

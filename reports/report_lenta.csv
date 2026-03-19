@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-00:43:00,lenta.com,OK,200,HEAD,786.9,OK
-00:43:00,lenta.tech,SSL_ERR,0,GET,0,SSL handshake failed
