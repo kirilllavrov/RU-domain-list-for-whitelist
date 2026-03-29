@@ -1,2 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,sev.ru,SSL_ERR,0,GET,0,SSL handshake failed

@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,lenta.com,HTTP_ERR,401,GET,186.7,401 Unauthorized
-01:18:56,lenta.tech,SSL_ERR,0,GET,0,SSL handshake failed

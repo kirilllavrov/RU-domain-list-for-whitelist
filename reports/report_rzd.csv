@@ -1,4 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,rzd.ru,OK,200,GET,1175.5,
-01:18:56,rzd-bonus.ru,OK,200,GET,208.6,OK
-01:18:56,dzvr.ru,DNS_ERR,0,GET,0,DNS timeout

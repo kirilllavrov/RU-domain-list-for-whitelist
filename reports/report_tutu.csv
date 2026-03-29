@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,tutu.ru,OK,200,GET,779.1,OK
-01:18:56,tu-tu.ru,HTTP_ERR,403,GET,216.8,403 Forbidden

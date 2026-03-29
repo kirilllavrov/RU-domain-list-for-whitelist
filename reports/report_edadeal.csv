@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,edadeal.ru,HTTP_ERR,400,GET,259.9,400 Bad request
-01:18:56,edadeal.io,DNS_ERR,0,GET,0,DNS timeout

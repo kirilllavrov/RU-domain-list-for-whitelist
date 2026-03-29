@@ -1,5 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,1cfresh.com,OK,200,GET,335.0,
-01:18:56,1c.ru,DNS_ERR,0,GET,0,DNS timeout
-01:18:56,bitrix24.ru,HTTP_ERR,0,GET,0,Response error 400
-01:18:56,1c-bitrix.ru,SSL_ERR,0,GET,0,SSL handshake failed

@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,whoosh.bike,OK,200,GET,262.3,OK
-01:18:56,api.whoosh.bike,HTTP_ERR,403,GET,266.4,403 Forbidden

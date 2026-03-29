@@ -1,2 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,dellin.ru,HTTP_ERR,401,GET,180.8,401 Unauthorized

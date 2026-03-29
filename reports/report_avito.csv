@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,avito.ru,HTTP_ERR,429,GET,449.8,429 Too Many Requests
-01:18:56,avito.st,HTTP_ERR,429,GET,668.5,429 Too Many Requests

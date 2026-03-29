@@ -1,4 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,magnit.ru,OK,200,GET,1051.7,OK
-01:18:56,mm.ru,OK,200,GET,223.4,OK
-01:18:56,kazanexpress.ru,DNS_ERR,0,GET,0,DNS timeout

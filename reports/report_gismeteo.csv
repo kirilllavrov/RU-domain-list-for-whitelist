@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,gismeteo.ru,HTTP_ERR,0,GET,0,Response error 400
-01:18:56,gismeteo.st,DNS_ERR,0,-,0,Domain not resolved

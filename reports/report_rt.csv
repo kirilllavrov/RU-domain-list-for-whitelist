@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,rt.ru,OK,200,GET,1408.7,OK
-01:18:56,qms.ru,OK,200,GET,625.0,OK

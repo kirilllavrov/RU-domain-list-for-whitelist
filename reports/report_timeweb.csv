@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-01:18:56,timeweb.com,OK,200,GET,244.8,OK
-01:18:56,timeweb.cloud,OK,200,GET,224.8,OK
