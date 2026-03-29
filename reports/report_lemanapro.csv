@@ -1,5 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-23:32:02,lemanapro.ru,SSL_ERR,0,GET,0,SSL handshake failed
-23:32:02,partners.lemanapro.ru,OK,200,HEAD,189.1,OK
-23:32:02,static.lemanapro.ru,DNS_ERR,0,GET,0,DNS timeout
-23:32:02,cdn.lemanapro.ru,HTTP_ERR,403,GET,56.4,403 Forbidden

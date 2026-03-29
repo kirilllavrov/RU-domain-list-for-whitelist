@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-23:32:02,rutube.ru,OK,200,HEAD,176.1,OK
-23:32:02,rutubelist.ru,RST,0,GET,0,Connection reset by peer

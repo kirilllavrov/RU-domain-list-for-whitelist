@@ -1,4 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-23:32:02,ozon.ru,HTTP_ERR,403,GET,206.5,403 Forbidden
-23:32:02,ozone.ru,UNKNOWN,0,GET,0,ServerDisconnectedError
-23:32:02,ozonusercontent.com,DNS_ERR,0,-,0,Domain not resolved

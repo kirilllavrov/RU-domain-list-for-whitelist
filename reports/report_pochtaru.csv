@@ -1,4 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-23:32:02,pochta.ru,OK,200,HEAD,820.4,OK
-23:32:02,russianpost.ru,SSL_ERR,0,GET,0,SSL handshake failed
-23:32:02,mobileapp.russianpost.ru,OK,200,HEAD,217.8,OK

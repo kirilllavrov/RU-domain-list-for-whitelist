@@ -1,4 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-23:32:02,rostics.ru,HTTP_ERR,503,HEAD,190.5,503 Service Temporarily Unavailable
-23:32:02,uni.rest,DNS_ERR,0,-,0,Domain not resolved
-23:32:02,unirest.tech,DNS_ERR,0,GET,0,DNS timeout

@@ -1,4 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-23:32:02,ngenix.net,HTTP_ERR,503,HEAD,204.8,503 Service Temporarily Unavailable
-23:32:02,wink.ru,OK,200,HEAD,752.5,OK
-23:32:02,restream-media.net,DNS_ERR,0,-,0,Domain not resolved

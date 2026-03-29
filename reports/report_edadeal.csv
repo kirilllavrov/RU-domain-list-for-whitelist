@@ -1,3 +1,0 @@
-timestamp,domain,status,code,method,rtt_ms,details
-23:32:02,edadeal.ru,OK,200,HEAD,220.3,OK
-23:32:02,edadeal.io,UNKNOWN,0,GET,0,ServerDisconnectedError
