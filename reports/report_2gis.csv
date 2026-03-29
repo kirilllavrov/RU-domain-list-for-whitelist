@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,2gis.com,OK,200,HEAD,480.4,OK
+23:32:02,2gis.ru,OK,200,HEAD,312.6,OK
+23:32:02,2gis.ae,OK,200,HEAD,376.3,OK

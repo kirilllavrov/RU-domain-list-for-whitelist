@@ -1,0 +1,3 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,1tv.ru,SSL_ERR,0,GET,0,SSL handshake failed
+23:32:02,1internet.tv,SSL_ERR,0,GET,0,SSL handshake failed

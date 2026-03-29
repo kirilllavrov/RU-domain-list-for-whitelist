@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,kaspersky-labs.com,SSL_ERR,0,GET,0,SSL handshake failed
+23:32:02,kaspersky.com,SSL_ERR,0,GET,0,SSL handshake failed
+23:32:02,kaspersky.ru,SSL_ERR,0,GET,0,SSL handshake failed

@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,smotrim.ru,OK,200,HEAD,196.7,OK

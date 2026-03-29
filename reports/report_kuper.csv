@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,kuper.ru,OK,200,HEAD,180.8,OK

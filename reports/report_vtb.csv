@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,vtb.ru,DNS_ERR,0,GET,0,DNS timeout

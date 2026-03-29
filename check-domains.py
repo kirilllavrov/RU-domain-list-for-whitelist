@@ -19,10 +19,10 @@ logging.getLogger('aiodns').setLevel(logging.CRITICAL)
 
 # === КОНФИГУРАЦИЯ ===
 CONFIG = {
-    "timeout_connect": 10,
-    "timeout_total": 16,
-    "timeout_dns": 8,  # ✅ Уменьшено для быстрого фейла
-    "concurrency": 20,
+    "timeout_connect": 20,
+    "timeout_total": 25,
+    "timeout_dns": 15,  # ✅ Уменьшено для быстрого фейла
+    "concurrency": 5,
     "user_agent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/120.0.0.0 Safari/537.36",
     # ✅ Fallback DNS: если первые не отвечают, пробуем следующие
     "dns_servers": ["77.88.8.8", "8.8.8.8", "1.1.1.1"],

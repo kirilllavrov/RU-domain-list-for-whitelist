@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,dns-shop.ru,OK,200,HEAD,465.8,OK

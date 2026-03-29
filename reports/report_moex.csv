@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,www.moex.com,OK,200,HEAD,620.1,OK

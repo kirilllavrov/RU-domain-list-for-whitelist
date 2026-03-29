@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,dzen.ru,HTTP_ERR,400,GET,538.8,400 Bad request

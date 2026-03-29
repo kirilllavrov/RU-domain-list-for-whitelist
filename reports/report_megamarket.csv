@@ -1,0 +1,5 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,megamarket.ru,OK,200,HEAD,186.3,OK
+23:32:02,api.megamarket.tech,HTTP_ERR,403,GET,190.1,403 Forbidden
+23:32:02,api.sbermarket.ru,DNS_ERR,0,GET,0,DNS timeout
+23:32:02,extra-cdn.sbermegamarket.ru,DNS_ERR,0,GET,0,DNS timeout

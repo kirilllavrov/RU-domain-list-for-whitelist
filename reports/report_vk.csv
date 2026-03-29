@@ -1,0 +1,26 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,mvk.com,HTTP_ERR,418,HEAD,473.0,418 
+23:32:02,userapi.com,DNS_ERR,0,GET,0,DNS timeout
+23:32:02,vk-apps.com,OK,200,HEAD,262.3,OK
+23:32:02,vk-apps.ru,OK,200,HEAD,231.8,OK
+23:32:02,vk-cdn.me,SSL_ERR,0,GET,0,SSL handshake failed
+23:32:02,vkcloud-static.ru,HTTP_ERR,503,HEAD,1305.9,503 Service Unavailable
+23:32:02,vk-portal.net,HTTP_ERR,404,HEAD,220.4,404 Not Found
+23:32:02,vk.cc,HTTP_ERR,418,HEAD,232.5,418 
+23:32:02,vk.com,HTTP_ERR,418,HEAD,66.7,418 
+23:32:02,vk.company,OK,200,HEAD,469.1,OK
+23:32:02,vk.design,HTTP_ERR,418,HEAD,448.0,418 
+23:32:02,vk.link,HTTP_ERR,418,HEAD,187.7,418 
+23:32:02,vk.me,HTTP_ERR,418,HEAD,227.9,418 
+23:32:02,vk.ru,HTTP_ERR,418,HEAD,172.7,418 
+23:32:02,vk.team,OK,200,HEAD,623.5,OK
+23:32:02,vkontakte.ru,HTTP_ERR,418,HEAD,202.1,418 
+23:32:02,vkuseraudio.com,HTTP_ERR,418,HEAD,547.5,418 
+23:32:02,vkuseraudio.net,HTTP_ERR,418,HEAD,270.0,418 
+23:32:02,vkuseraudio.ru,HTTP_ERR,418,HEAD,284.7,418 
+23:32:02,vkuserlive.net,HTTP_ERR,404,HEAD,199.5,404 Not Found
+23:32:02,vkuserphoto.ru,HTTP_ERR,418,HEAD,319.8,418 
+23:32:02,vkuservideo.com,HTTP_ERR,418,HEAD,390.9,418 
+23:32:02,vkuservideo.net,HTTP_ERR,418,HEAD,438.1,418 
+23:32:02,vkuservideo.ru,HTTP_ERR,418,HEAD,399.3,418 
+23:32:02,vkvideo.ru,HTTP_ERR,418,HEAD,214.5,418 

@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+23:32:02,fix-price.com,OK,200,HEAD,174.2,OK
