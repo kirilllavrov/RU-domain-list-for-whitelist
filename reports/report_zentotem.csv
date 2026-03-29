@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:18:56,zentotem.net,OK,200,GET,308.5,OK

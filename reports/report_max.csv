@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:18:56,max.ru,HTTP_ERR,0,GET,0,Response error 400

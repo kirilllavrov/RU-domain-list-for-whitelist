@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:18:56,playfamily.ru,OK,200,GET,429.0,OK

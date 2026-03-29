@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:18:56,trbcdn.net,HTTP_ERR,404,GET,269.3,404 Not Found

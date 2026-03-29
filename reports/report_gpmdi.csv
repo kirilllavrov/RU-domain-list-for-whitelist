@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:18:56,gpmdi.ru,OK,200,GET,247.9,OK

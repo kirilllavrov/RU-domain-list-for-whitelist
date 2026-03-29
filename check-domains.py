@@ -12,7 +12,7 @@ from datetime import datetime
 from typing import List, Tuple, Dict, Set
 from pathlib import Path
 
-# ✅ Подавляем логи aiohttp и aiodns
+# ✅ Полная тишина в логах
 logging.getLogger('aiohttp').setLevel(logging.CRITICAL)
 logging.getLogger('asyncio').setLevel(logging.CRITICAL)
 logging.getLogger('aiodns').setLevel(logging.CRITICAL)
@@ -20,12 +20,27 @@ logging.getLogger('aiodns').setLevel(logging.CRITICAL)
 # === КОНФИГУРАЦИЯ ===
 CONFIG = {
     "timeout_connect": 20,
-    "timeout_total": 25,
-    "timeout_dns": 15,  # ✅ Уменьшено для быстрого фейла
+    "timeout_total": 30,
+    "timeout_dns": 10,
     "concurrency": 5,
-    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/120.0.0.0 Safari/537.36",
-    # ✅ Fallback DNS: если первые не отвечают, пробуем следующие
-    "dns_servers": ["77.88.8.8", "8.8.8.8", "1.1.1.1"],
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Sec-Ch-Ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": '"Linux"',
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+        "Connection": "keep-alive",
+    },
+    "dns_servers": ["77.88.8.8", "77.88.8.1"],
 }
 
 ICONS = {"OK": "✅", "RST": "❌", "TIMEOUT": "⏱", "SSL_ERR": "🔐", "HTTP_ERR": "⚠", "DNS_ERR": "🌐", "UNKNOWN": "❓"}
@@ -35,11 +50,8 @@ DEFAULT_EXCLUDES = {"whitelist-ru", "private", "category-ru"}
 def classify_error(error: Exception) -> Tuple[str, str]:
     err_str = str(error).lower()
     
-    # ✅ Обработка aiohttp.ClientResponseError
     if isinstance(error, aiohttp.ClientResponseError):
         return "HTTP_ERR", f"Response error {error.status}"
-    
-    # ✅ Обработка DNS ошибок (aiodns, socket.gaierror, OSError)
     if isinstance(error, socket.gaierror):
         return "DNS_ERR", "Domain not resolved"
     if isinstance(error, OSError) and "timeout" in err_str:
@@ -96,6 +108,7 @@ def get_files_to_process(directory: str, excludes: Set[str]) -> List[Path]:
     return sorted(files)
 
 def preprocess_file(filepath: Path) -> List[Dict]:
+    """Раскомментирует все домены в файле"""
     lines_data = []
     
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -124,8 +137,9 @@ def preprocess_file(filepath: Path) -> List[Dict]:
                     'status': None,
                 })
     
+    # ✅ ИСПРАВЛЕНО: lines_data + двоеточие
     with open(filepath, 'w', encoding='utf-8') as f:
-        for item in lines_data:
+        for item in lines_data:  # ← Было: lines_ (ошибка)
             if item['is_domain']:
                 f.write(item['domain'] + '\n')
             else:
@@ -134,6 +148,7 @@ def preprocess_file(filepath: Path) -> List[Dict]:
     return lines_data
 
 def postprocess_all_files(domain_all_occurrences: Dict[str, List[Tuple[Path, int]]], results: Dict[str, dict]):
+    """Закомментировать неудачные домены во всех файлах"""
     file_domains: Dict[Path, Set[str]] = {}
     for domain, occurrences in domain_all_occurrences.items():
         result = results.get(domain, {})
@@ -157,46 +172,42 @@ def postprocess_all_files(domain_all_occurrences: Dict[str, List[Tuple[Path, int
                     f.write(line)
 
 async def check_domain(session: aiohttp.ClientSession, domain: str, sem: asyncio.Semaphore) -> dict:
+    """Проверка домена через GET с браузерными заголовками"""
     async with sem:
-        res = {"domain": domain, "status": "", "code": 0, "method": "HEAD", "rtt_ms": 0, "details": ""}
+        res = {"domain": domain, "status": "", "code": 0, "method": "GET", "rtt_ms": 0, "details": ""}
         
-        for method in ["HEAD", "GET"]:
-            res["method"] = method
-            url = f"https://{domain}"
-            start = time.time()
-            
-            try:
-                async with session.request(
-                    method, url, allow_redirects=True, ssl=False,
-                    timeout=aiohttp.ClientTimeout(connect=CONFIG["timeout_connect"], total=CONFIG["timeout_total"]),
-                    headers={"User-Agent": CONFIG["user_agent"]}
-                ) as resp:
-                    res["rtt_ms"] = round((time.time() - start) * 1000, 1)
-                    res["code"] = resp.status
+        url = f"https://{domain}"
+        start = time.time()
+        
+        try:
+            async with session.get(
+                url,
+                allow_redirects=True,
+                ssl=False,
+                timeout=aiohttp.ClientTimeout(connect=CONFIG["timeout_connect"], total=CONFIG["timeout_total"]),
+                headers=CONFIG["headers"]
+            ) as resp:
+                rtt = (time.time() - start) * 1000
+                res["rtt_ms"] = round(rtt, 1)
+                res["code"] = resp.status
+                
+                if 200 <= resp.status < 400:
+                    res["status"] = "OK"
+                    res["details"] = f"{resp.reason}"
+                else:
+                    res["status"] = "HTTP_ERR"
+                    res["details"] = f"{resp.status} {resp.reason}"
                     
-                    if 200 <= resp.status < 400:
-                        res["status"] = "OK"
-                        res["details"] = f"{resp.reason}"
-                        return res
-                    elif method == "HEAD" and resp.status in [400, 405, 403]:
-                        continue
-                    else:
-                        res["status"] = "HTTP_ERR"
-                        res["details"] = f"{resp.status} {resp.reason}"
-                        return res
-                        
-            except Exception as e:
-                if method == "GET":
-                    res["status"], res["details"] = classify_error(e)
-                    return res
+        except Exception as e:
+            res["status"], res["details"] = classify_error(e)
         
         return res
 
 async def run_checker(domains: List[str], connector: aiohttp.TCPConnector, verbose: bool = True) -> Dict[str, dict]:
+    """Основная функция проверки"""
     results = {}
     
     print(f"🔍 Этап 1/2: DNS-резолв ({len(domains)} доменов)...")
-    print(f"   DNS-серверы: {', '.join(CONFIG['dns_servers'])}")
     
     dns_sem = asyncio.Semaphore(CONFIG["concurrency"] * 2)
     
@@ -232,7 +243,10 @@ async def run_checker(domains: List[str], connector: aiohttp.TCPConnector, verbo
     http_domains = [d for d, r in dns_results.items() if r]
     if http_domains:
         print(f"\n🔍 Этап 2/2: HTTP-проверка ({len(http_domains)} доменов)...")
-        async with aiohttp.ClientSession(connector=connector) as session:
+        print(f"   🌐 Режим: Browser emulation (GET + Cookies + Keep-Alive)")
+        
+        cookie_jar = aiohttp.CookieJar()
+        async with aiohttp.ClientSession(connector=connector, cookie_jar=cookie_jar) as session:
             http_sem = asyncio.Semaphore(CONFIG["concurrency"])
             http_tasks = [check_domain(session, d, http_sem) for d in http_domains]
             
@@ -256,6 +270,7 @@ async def run_checker(domains: List[str], connector: aiohttp.TCPConnector, verbo
     return results
 
 def load_domains_from_files(files: List[Path]) -> Tuple[List[str], Dict[str, Path], Dict[str, List[Tuple[Path, int]]]]:
+    """Загрузить домены из всех файлов с сохранением всех вхождений"""
     domains = []
     domain_to_file = {}
     domain_all_occurrences = {}
@@ -279,6 +294,7 @@ def load_domains_from_files(files: List[Path]) -> Tuple[List[str], Dict[str, Pat
     return domains, domain_to_file, domain_all_occurrences
 
 def save_results_per_file(domain_all_occurrences: Dict[str, List[Tuple[Path, int]]], results: Dict[str, dict], output_dir: str):
+    """Сохранить CSV отчёты для каждого файла"""
     os.makedirs(output_dir, exist_ok=True)
     
     file_results: Dict[str, List[dict]] = {}
@@ -317,18 +333,18 @@ def save_results_per_file(domain_all_occurrences: Dict[str, List[Tuple[Path, int
                     ])
 
 async def main():
-    parser = argparse.ArgumentParser(description='DPI Checker v10 (DNS fallback)')
+    parser = argparse.ArgumentParser(description='DPI Checker v14 (валидация переменных)')
     parser.add_argument('directory', nargs='?', default='domains/ru', help='Директория со списками')
     parser.add_argument('-o', '--output', default='reports', help='Директория отчётов')
-    parser.add_argument('-c', '--concurrency', type=int, 
-                        default=CONFIG["concurrency"],
-                        help='Параллельных запросов')
+    parser.add_argument('-c', '--concurrency', type=int, default=CONFIG["concurrency"], help='Параллельных запросов')
     parser.add_argument('-q', '--quiet', action='store_true', help='Тихий режим')
     parser.add_argument('--no-modify', action='store_true', help='Не модифицировать файлы')
     parser.add_argument('-e', '--exclude', nargs='+', default=[], help='Исключения')
     parser.add_argument('--dns', nargs='+', default=None, help='DNS-серверы (переопределение)')
+    parser.add_argument('--system-dns', action='store_true', help='✅ Использовать системный DNS')
     args = parser.parse_args()
     
+    # Переопределение DNS
     if args.dns:
         CONFIG["dns_servers"] = args.dns
     
@@ -340,7 +356,11 @@ async def main():
     print(f"   timeout_total:   {CONFIG['timeout_total']}s")
     print(f"   timeout_dns:     {CONFIG['timeout_dns']}s")
     print(f"   concurrency:     {CONFIG['concurrency']}")
-    print(f"   dns_servers:     {', '.join(CONFIG['dns_servers'])}")
+    if args.system_dns:
+        print(f"   dns:             SYSTEM (из /etc/resolv.conf) ✅")
+    else:
+        print(f"   dns_servers:     {', '.join(CONFIG['dns_servers'])}")
+    print(f"   mode:            Browser GET (Cookies + Keep-Alive)")
     print("-" * 85)
     
     print(f"📂 Директория: {directory}")
@@ -371,18 +391,29 @@ async def main():
     print(f"📋 Доменов: {len(domains)} | 🚀 Потоков: {CONFIG['concurrency']}")
     print("-" * 85)
     
-    # ✅ Создаём connector с кастомным DNS
+    # ✅ Создание connector: системный DNS или кастомный
     try:
-        resolver = aiohttp.AsyncResolver(nameservers=CONFIG["dns_servers"])
-        connector = aiohttp.TCPConnector(
-            limit=CONFIG["concurrency"],
-            ttl_dns_cache=300,
-            use_dns_cache=True,
-            resolver=resolver
-        )
+        if args.system_dns:
+            connector = aiohttp.TCPConnector(
+                limit=CONFIG["concurrency"],
+                ttl_dns_cache=300,
+                use_dns_cache=True,
+                enable_cleanup_closed=True,
+            )
+            print("🌐 DNS: Системный резолвер (/etc/resolv.conf)")
+        else:
+            resolver = aiohttp.AsyncResolver(nameservers=CONFIG["dns_servers"])
+            connector = aiohttp.TCPConnector(
+                limit=CONFIG["concurrency"],
+                ttl_dns_cache=300,
+                use_dns_cache=True,
+                resolver=resolver,
+                enable_cleanup_closed=True,
+            )
+            print(f"🌐 DNS: Кастомный ({', '.join(CONFIG['dns_servers'])})")
     except Exception as e:
-        print(f"❌ Ошибка создания DNS resolver: {e}")
-        print("💡 Попробуйте --dns 1.1.1.1 8.8.8.8")
+        print(f"❌ Ошибка создания connector: {e}")
+        print("💡 Попробуйте --system-dns или --dns 77.88.8.8 77.88.8.1")
         sys.exit(1)
     
     start = time.time()
@@ -412,6 +443,11 @@ async def main():
     for status, count in sorted(status_counts.items(), key=lambda x: -x[1]):
         icon = ICONS.get(status, "❓")
         print(f"  {icon} {status}: {count}")
+    
+    http_err_count = status_counts.get("HTTP_ERR", 0)
+    if http_err_count > 0:
+        print(f"\n⚠️  HTTP_ERR ({http_err_count}) — сервер ответил, это НЕ блокировка")
+        print(f"   Эти домены НЕ будут закомментированы")
     
     await connector.close()
 

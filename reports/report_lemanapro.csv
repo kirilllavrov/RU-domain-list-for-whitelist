@@ -1,0 +1,5 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:18:56,lemanapro.ru,SSL_ERR,0,GET,0,SSL handshake failed
+01:18:56,partners.lemanapro.ru,OK,200,GET,211.1,OK
+01:18:56,static.lemanapro.ru,HTTP_ERR,403,GET,242.5,403 Forbidden
+01:18:56,cdn.lemanapro.ru,HTTP_ERR,403,GET,184.8,403 Forbidden

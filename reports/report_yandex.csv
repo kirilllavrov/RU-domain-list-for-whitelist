@@ -1,0 +1,46 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:18:56,яндекс.рф,HTTP_ERR,400,GET,290.1,400 Bad request
+01:18:56,xn--d1acpjx3f.xn--p1ai,HTTP_ERR,400,GET,115.9,400 Bad request
+01:18:56,adfox.ru,DNS_ERR,0,GET,0,DNS timeout
+01:18:56,rostaxi.org,DNS_ERR,0,GET,0,DNS timeout
+01:18:56,turbopages.org,HTTP_ERR,404,GET,275.9,404 Not found
+01:18:56,webvisor.com,HTTP_ERR,400,GET,312.8,400 Bad request
+01:18:56,ya.ru,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex-images.clstorage.net,HTTP_ERR,403,GET,245.9,403 Forbidden
+01:18:56,yandex-team.ru,DNS_ERR,0,GET,0,DNS timeout
+01:18:56,yandex.aero,OK,200,GET,429.7,Ok
+01:18:56,yandex.az,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.by,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.cloud,DNS_ERR,0,GET,0,DNS timeout
+01:18:56,yandex.co.il,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.com,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.com.am,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.com.ge,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.com.ru,HTTP_ERR,400,GET,264.5,400 Bad request
+01:18:56,yandex.com.tr,SSL_ERR,0,GET,0,SSL handshake failed
+01:18:56,yandex.de,HTTP_ERR,400,GET,325.2,400 Bad request
+01:18:56,yandex.ee,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.eu,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.fi,HTTP_ERR,400,GET,288.4,400 Bad request
+01:18:56,yandex.fr,HTTP_ERR,400,GET,352.4,400 Bad request
+01:18:56,yandex.jobs,OK,200,GET,296.3,Ok
+01:18:56,yandex.kz,RST,0,GET,0,Connection refused
+01:18:56,yandex.lt,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.lv,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.md,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.net,HTTP_ERR,400,GET,249.3,400 Bad request
+01:18:56,yandex.org,HTTP_ERR,400,GET,313.3,400 Bad request
+01:18:56,yandex.pl,HTTP_ERR,400,GET,267.7,400 Bad request
+01:18:56,yandex.ru,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.st,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.tj,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.tm,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandex.tr,HTTP_ERR,400,GET,270.3,400 Bad request
+01:18:56,yandex.uz,HTTP_ERR,0,GET,0,Response error 400
+01:18:56,yandexadexchange.net,HTTP_ERR,404,GET,201.7,404 Not Found
+01:18:56,yastat.net,DNS_ERR,0,GET,0,DNS timeout
+01:18:56,yastatic.net,DNS_ERR,0,GET,0,DNS timeout
+01:18:56,skcrtxr.com,DNS_ERR,0,GET,0,DNS timeout
+01:18:56,kinopoisk.ru,HTTP_ERR,400,GET,264.0,400 Bad request
+01:18:56,kinopoisk-ru.clstorage.net,HTTP_ERR,403,GET,279.1,403 Forbidden
+01:18:56,inappstory.ru,OK,200,GET,619.8,OK

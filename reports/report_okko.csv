@@ -1,0 +1,3 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:18:56,okko.tv,OK,200,GET,209.0,OK
+01:18:56,okko.sport,OK,200,GET,1499.1,OK

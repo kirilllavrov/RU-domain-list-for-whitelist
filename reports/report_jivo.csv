@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:18:56,jivo.ru,DNS_ERR,0,GET,0,DNS timeout
+01:18:56,jivochat.com,DNS_ERR,0,GET,0,DNS timeout
+01:18:56,jivosite.com,OK,200,GET,279.4,OK
