@@ -1,13 +1,1 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-wheels/
-*.egg-info
-
-# Project files
-.venv
-.idea/
-.DS_Store
-.env
-.vscode/
+Nothing should be ignored in this case, as only a README.md file was modified and no build artifacts, dependencies, or temporary files were detected.
