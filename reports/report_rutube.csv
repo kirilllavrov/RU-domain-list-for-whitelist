@@ -1,0 +1,3 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,rutube.ru,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,rutubelist.ru,RST,0,GET,0,Connection reset by peer

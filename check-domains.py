@@ -19,9 +19,9 @@ logging.getLogger('aiodns').setLevel(logging.CRITICAL)
 
 # === КОНФИГУРАЦИЯ ===
 CONFIG = {
-    "timeout_connect": 20,
-    "timeout_total": 30,
-    "timeout_dns": 10,
+    "timeout_connect": 40,
+    "timeout_total": 40,
+    "timeout_dns": 30,
     "concurrency": 5,
     "headers": {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",

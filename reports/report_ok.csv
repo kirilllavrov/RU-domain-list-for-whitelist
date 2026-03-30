@@ -1,0 +1,5 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,ok.ru,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,mycdn.me,HTTP_ERR,403,GET,233.3,403 Forbidden
+01:57:10,okcdn.ru,HTTP_ERR,403,GET,428.3,403 Forbidden
+01:57:10,apptracer.ru,HTTP_ERR,0,GET,0,Response error 400

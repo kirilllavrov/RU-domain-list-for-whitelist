@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,aeroflot.ru,HTTP_ERR,503,GET,432.5,503 Service Temporarily Unavailable

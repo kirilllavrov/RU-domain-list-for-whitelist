@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,rzd.ru,OK,200,GET,990.3,
+01:57:10,rzd-bonus.ru,OK,200,GET,169.2,OK
+01:57:10,dzvr.ru,UNKNOWN,0,GET,0,TimeoutError

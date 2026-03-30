@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,1cloud.ru,OK,200,GET,219.1,OK

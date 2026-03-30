@@ -1,0 +1,5 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,megamarket.ru,OK,200,GET,154.6,OK
+01:57:10,api.megamarket.tech,HTTP_ERR,403,GET,192.7,403 Forbidden
+01:57:10,api.sbermarket.ru,HTTP_ERR,403,GET,218.2,403 Forbidden
+01:57:10,extra-cdn.sbermegamarket.ru,HTTP_ERR,504,GET,40454.0,504 Gateway Time-out

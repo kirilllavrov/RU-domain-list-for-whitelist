@@ -1,0 +1,35 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,Federal Gov.,DNS_ERR,0,-,0,Domain not resolved
+01:57:10,digital.gov.ru,OK,200,GET,171.2,OK
+01:57:10,government.ru,UNKNOWN,0,GET,0,TimeoutError
+01:57:10,gov.ru,UNKNOWN,0,GET,0,TimeoutError
+01:57:10,mchs.gov.ru,OK,200,GET,755.6,OK
+01:57:10,xn--b1aew.xn--p1ai,OK,200,GET,668.3,OK
+01:57:10,xn----7sb7akeedqd.xn--p1ai,OK,200,GET,683.5,OK
+01:57:10,kremlin.ru,UNKNOWN,0,GET,0,TimeoutError
+01:57:10,gosuslugi.ru,OK,200,GET,282.6,OK
+01:57:10,gu-st.ru,UNKNOWN,0,GET,0,TimeoutError
+01:57:10,emias.info,OK,200,GET,218.1,OK
+01:57:10,mgfoms.ru,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,edu.ru,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,cbr.ru,OK,200,GET,180.4,OK
+01:57:10,nalog.ru,OK,200,GET,476.0,OK
+01:57:10,cikrf.ru,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,izbirkom.ru,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,mos.ru,OK,200,GET,444.2,OK
+01:57:10,mosreg.ru,OK,200,GET,162.1,OK
+01:57:10,spb.ru,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,sevastopol.ru,DNS_ERR,0,-,0,Domain not resolved
+01:57:10,kchr.ru,OK,200,GET,269.4,OK
+01:57:10,tatarstan.ru,OK,200,GET,426.3,OK
+01:57:10,krd.ru,OK,200,GET,720.0,OK
+01:57:10,i-ola.ru,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,vlc.ru,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,xn--80acgfbsl1azdqr.xn--p1ai,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,kemerovo.ru,OK,200,GET,379.7,OK
+01:57:10,kursk.ru,OK,200,GET,424.6,OK
+01:57:10,xn--80aacoonefzg3am8b1fsb.xn--p1ai,OK,200,GET,1350.0,OK
+01:57:10,pskov.ru,OK,200,GET,245.8,OK
+01:57:10,er.ru,OK,200,GET,211.7,OK
+01:57:10,ldpr.ru,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,newpeople.ru,SSL_ERR,0,GET,0,SSL handshake failed

@@ -1,0 +1,3 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,domclick.ru,HTTP_ERR,401,GET,170.3,401 Unauthorized
+01:57:10,dmclk.ru,SSL_ERR,0,GET,0,SSL handshake failed

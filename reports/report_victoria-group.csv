@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,victoria-group.ru,OK,200,GET,508.7,OK

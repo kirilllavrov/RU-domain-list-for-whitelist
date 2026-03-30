@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,rbc.ru,OK,200,GET,796.3,OK

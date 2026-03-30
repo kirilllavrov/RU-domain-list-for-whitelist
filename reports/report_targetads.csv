@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,targetads.io,OK,200,GET,290.1,OK

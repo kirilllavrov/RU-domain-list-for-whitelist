@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,ngenix.net,HTTP_ERR,503,GET,195.6,503 Service Temporarily Unavailable
+01:57:10,wink.ru,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,restream-media.net,DNS_ERR,0,-,0,Domain not resolved

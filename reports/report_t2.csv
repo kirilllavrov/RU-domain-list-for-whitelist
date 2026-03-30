@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,t2.ru,HTTP_ERR,503,GET,168.7,503 Service Temporarily Unavailable

@@ -1,0 +1,268 @@
+timestamp,domain,status,code,method,rtt_ms,details,source_file
+01:57:10,1cfresh.com,OK,200,GET,271.3,,1c
+01:57:10,1c.ru,OK,200,GET,228.3,OK,1c
+01:57:10,bitrix24.ru,UNKNOWN,0,GET,0,TimeoutError,1c
+01:57:10,1c-bitrix.ru,SSL_ERR,0,GET,0,SSL handshake failed,1c
+01:57:10,1cloud.ru,OK,200,GET,219.1,OK,1cloud
+01:57:10,1tv.ru,SSL_ERR,0,GET,0,SSL handshake failed,1tv
+01:57:10,1internet.tv,SSL_ERR,0,GET,0,SSL handshake failed,1tv
+01:57:10,2gis.com,HTTP_ERR,0,GET,0,Response error 400,2gis
+01:57:10,2gis.ru,UNKNOWN,0,GET,0,TimeoutError,2gis
+01:57:10,2gis.ae,HTTP_ERR,0,GET,0,Response error 400,2gis
+01:57:10,aeroflot.ru,HTTP_ERR,503,GET,432.5,503 Service Temporarily Unavailable,aeroflot
+01:57:10,alfabank.ru,OK,200,GET,200.1,OK,alfabank
+01:57:10,auto.ru,OK,200,GET,530.7,Ok,autoru
+01:57:10,avito.ru,HTTP_ERR,429,GET,529.2,429 Too Many Requests,avito
+01:57:10,avito.st,HTTP_ERR,429,GET,615.4,429 Too Many Requests,avito
+01:57:10,av.ru,OK,200,GET,178.8,OK,avru
+01:57:10,beeline.ru,UNKNOWN,0,GET,0,TimeoutError,beeline
+01:57:10,bronevik.com,OK,200,GET,518.8,OK,bronevik
+01:57:10,trbcdn.net,HTTP_ERR,404,GET,250.4,404 Not Found,cdnvideo
+01:57:10,citydrive.ru,HTTP_ERR,0,GET,0,Response error 400,citydrive
+01:57:10,csat.ru,OK,200,GET,658.1,OK,csat
+01:57:10,ddos-guard.net,SSL_ERR,0,GET,0,SSL handshake failed,ddosguard
+01:57:10,dellin.ru,HTTP_ERR,401,GET,155.2,401 Unauthorized,dellin
+01:57:10,dixy.ru,OK,200,GET,232.7,OK,dixy
+01:57:10,dnevnik.ru,OK,200,GET,212.1,OK,dnevnikru
+01:57:10,dns-shop.ru,HTTP_ERR,401,GET,176.6,401 Unauthorized,dns-shop
+01:57:10,dodopizza.ru,OK,200,GET,166.7,OK,dodopizza
+01:57:10,dodopizza.com,SSL_ERR,0,GET,0,SSL handshake failed,dodopizza
+01:57:10,dodostatic.net,DNS_ERR,0,-,0,Domain not resolved,dodopizza
+01:57:10,dodois.com,SSL_ERR,0,GET,0,SSL handshake failed,dodopizza
+01:57:10,dodois.io,DNS_ERR,0,-,0,Domain not resolved,dodopizza
+01:57:10,domclick.ru,HTTP_ERR,401,GET,170.3,401 Unauthorized,domclick
+01:57:10,dmclk.ru,SSL_ERR,0,GET,0,SSL handshake failed,domclick
+01:57:10,www.drweb.ru,OK,200,GET,208.4,okay,drweb
+01:57:10,www.drweb.com,SSL_ERR,0,GET,0,SSL handshake failed,drweb
+01:57:10,dzen.ru,HTTP_ERR,400,GET,459.0,400 Bad request,dzen
+01:57:10,edadeal.ru,OK,200,GET,409.5,OK,edadeal
+01:57:10,edadeal.io,UNKNOWN,0,GET,0,ServerDisconnectedError,edadeal
+01:57:10,edgecdn.ru,SSL_ERR,0,GET,0,SSL handshake failed,edgecdn
+01:57:10,envybox.io,UNKNOWN,0,GET,0,TimeoutError,envybox
+01:57:10,fastvps.ru,OK,200,GET,274.0,OK,fastvps
+01:57:10,fix-price.com,OK,200,GET,159.0,OK,fixprice
+01:57:10,gismeteo.ru,HTTP_ERR,0,GET,0,Response error 400,gismeteo
+01:57:10,gismeteo.st,DNS_ERR,0,-,0,Domain not resolved,gismeteo
+01:57:10,Federal Gov.,DNS_ERR,0,-,0,Domain not resolved,gov
+01:57:10,digital.gov.ru,OK,200,GET,171.2,OK,gov
+01:57:10,government.ru,UNKNOWN,0,GET,0,TimeoutError,gov
+01:57:10,gov.ru,UNKNOWN,0,GET,0,TimeoutError,gov
+01:57:10,mchs.gov.ru,OK,200,GET,755.6,OK,gov
+01:57:10,xn--b1aew.xn--p1ai,OK,200,GET,668.3,OK,gov
+01:57:10,xn----7sb7akeedqd.xn--p1ai,OK,200,GET,683.5,OK,gov
+01:57:10,kremlin.ru,UNKNOWN,0,GET,0,TimeoutError,gov
+01:57:10,gosuslugi.ru,OK,200,GET,282.6,OK,gov
+01:57:10,gu-st.ru,UNKNOWN,0,GET,0,TimeoutError,gov
+01:57:10,emias.info,OK,200,GET,218.1,OK,gov
+01:57:10,mgfoms.ru,SSL_ERR,0,GET,0,SSL handshake failed,gov
+01:57:10,edu.ru,SSL_ERR,0,GET,0,SSL handshake failed,gov
+01:57:10,cbr.ru,OK,200,GET,180.4,OK,gov
+01:57:10,nalog.ru,OK,200,GET,476.0,OK,gov
+01:57:10,cikrf.ru,SSL_ERR,0,GET,0,SSL handshake failed,gov
+01:57:10,izbirkom.ru,SSL_ERR,0,GET,0,SSL handshake failed,gov
+01:57:10,mos.ru,OK,200,GET,444.2,OK,gov
+01:57:10,mosreg.ru,OK,200,GET,162.1,OK,gov
+01:57:10,spb.ru,SSL_ERR,0,GET,0,SSL handshake failed,gov
+01:57:10,sevastopol.ru,DNS_ERR,0,-,0,Domain not resolved,gov
+01:57:10,kchr.ru,OK,200,GET,269.4,OK,gov
+01:57:10,tatarstan.ru,OK,200,GET,426.3,OK,gov
+01:57:10,krd.ru,OK,200,GET,720.0,OK,gov
+01:57:10,i-ola.ru,SSL_ERR,0,GET,0,SSL handshake failed,gov
+01:57:10,vlc.ru,SSL_ERR,0,GET,0,SSL handshake failed,gov
+01:57:10,xn--80acgfbsl1azdqr.xn--p1ai,SSL_ERR,0,GET,0,SSL handshake failed,gov
+01:57:10,kemerovo.ru,OK,200,GET,379.7,OK,gov
+01:57:10,kursk.ru,OK,200,GET,424.6,OK,gov
+01:57:10,xn--80aacoonefzg3am8b1fsb.xn--p1ai,OK,200,GET,1350.0,OK,gov
+01:57:10,pskov.ru,OK,200,GET,245.8,OK,gov
+01:57:10,er.ru,OK,200,GET,211.7,OK,gov
+01:57:10,ldpr.ru,SSL_ERR,0,GET,0,SSL handshake failed,gov
+01:57:10,newpeople.ru,SSL_ERR,0,GET,0,SSL handshake failed,gov
+01:57:10,gpmdi.ru,OK,200,GET,215.5,OK,gpmdi
+01:57:10,hh.ru,OK,200,GET,860.5,OK,hh
+01:57:10,iz.ru,OK,200,GET,243.8,OK,izru
+01:57:10,jivo.ru,OK,200,GET,330.3,OK,jivo
+01:57:10,jivochat.com,OK,200,GET,683.0,OK,jivo
+01:57:10,jivosite.com,OK,200,GET,286.7,OK,jivo
+01:57:10,kaspersky-labs.com,SSL_ERR,0,GET,0,SSL handshake failed,kaspersky
+01:57:10,kaspersky.com,SSL_ERR,0,GET,0,SSL handshake failed,kaspersky
+01:57:10,kaspersky.ru,SSL_ERR,0,GET,0,SSL handshake failed,kaspersky
+01:57:10,kommersant.ru,OK,200,GET,475.8,OK,kommersantru
+01:57:10,krasyar.ru,OK,200,GET,875.2,OK,krasyar
+01:57:10,kuper.ru,OK,200,GET,164.6,OK,kuper
+01:57:10,lemanapro.ru,SSL_ERR,0,GET,0,SSL handshake failed,lemanapro
+01:57:10,partners.lemanapro.ru,OK,200,GET,167.8,OK,lemanapro
+01:57:10,static.lemanapro.ru,HTTP_ERR,403,GET,188.2,403 Forbidden,lemanapro
+01:57:10,cdn.lemanapro.ru,HTTP_ERR,403,GET,309.9,403 Forbidden,lemanapro
+01:57:10,lenta.com,HTTP_ERR,401,GET,143.5,401 Unauthorized,lenta
+01:57:10,lenta.tech,SSL_ERR,0,GET,0,SSL handshake failed,lenta
+01:57:10,lenta.ru,HTTP_ERR,0,GET,0,Response error 400,lentaru
+01:57:10,magnit.ru,OK,200,GET,725.7,OK,magnit
+01:57:10,mm.ru,OK,200,GET,199.7,OK,magnit
+01:57:10,kazanexpress.ru,OK,200,GET,440.5,OK,magnit
+01:57:10,imgsmail.ru,OK,200,GET,499.4,OK,mailru
+01:57:10,mail.ru,OK,200,GET,743.6,OK,mailru
+01:57:10,max.ru,HTTP_ERR,0,GET,0,Response error 400,max
+01:57:10,megafon.ru,OK,200,GET,1518.5,OK,megafon
+01:57:10,megamarket.ru,OK,200,GET,154.6,OK,megamarket
+01:57:10,api.megamarket.tech,HTTP_ERR,403,GET,192.7,403 Forbidden,megamarket
+01:57:10,api.sbermarket.ru,HTTP_ERR,403,GET,218.2,403 Forbidden,megamarket
+01:57:10,extra-cdn.sbermegamarket.ru,HTTP_ERR,504,GET,40454.0,504 Gateway Time-out,megamarket
+01:57:10,mindbox.ru,SSL_ERR,0,GET,0,SSL handshake failed,mindbox
+01:57:10,www.moex.com,OK,200,GET,642.0,OK,moex
+01:57:10,motivtelecom.ru,OK,200,GET,427.5,OK,motivtelecom
+01:57:10,mts.ru,HTTP_ERR,0,GET,0,Response error 400,mts
+01:57:10,newizv.ru,OK,200,GET,175.6,OK,newizv
+01:57:10,ngenix.net,HTTP_ERR,503,GET,195.6,503 Service Temporarily Unavailable,ngenix
+01:57:10,ngenix.net,HTTP_ERR,503,GET,195.6,503 Service Temporarily Unavailable,wink
+01:57:10,www.ntv.ru,OK,200,GET,156.1,OK,ntv
+01:57:10,ok.ru,HTTP_ERR,0,GET,0,Response error 400,ok
+01:57:10,mycdn.me,HTTP_ERR,403,GET,233.3,403 Forbidden,ok
+01:57:10,okcdn.ru,HTTP_ERR,403,GET,428.3,403 Forbidden,ok
+01:57:10,apptracer.ru,HTTP_ERR,0,GET,0,Response error 400,ok
+01:57:10,okko.tv,OK,200,GET,149.4,OK,okko
+01:57:10,okko.sport,OK,200,GET,1301.3,OK,okko
+01:57:10,ozon.ru,HTTP_ERR,403,GET,229.5,403 Forbidden,ozon
+01:57:10,ozone.ru,UNKNOWN,0,GET,0,ServerDisconnectedError,ozon
+01:57:10,ozonusercontent.com,DNS_ERR,0,-,0,Domain not resolved,ozon
+01:57:10,playfamily.ru,OK,200,GET,379.3,OK,playfamily
+01:57:10,pochta.ru,OK,200,GET,916.0,OK,pochtaru
+01:57:10,russianpost.ru,SSL_ERR,0,GET,0,SSL handshake failed,pochtaru
+01:57:10,mobileapp.russianpost.ru,OK,200,GET,227.0,OK,pochtaru
+01:57:10,psbank.ru,OK,200,GET,724.7,OK,psbank
+01:57:10,rambler.ru,HTTP_ERR,0,GET,0,Response error 400,rambler
+01:57:10,rbc.ru,OK,200,GET,796.3,OK,rbc
+01:57:10,rostics.ru,HTTP_ERR,503,GET,200.6,503 Service Temporarily Unavailable,rostics
+01:57:10,uni.rest,DNS_ERR,0,-,0,Domain not resolved,rostics
+01:57:10,unirest.tech,UNKNOWN,0,GET,0,TimeoutError,rostics
+01:57:10,rt.ru,OK,200,GET,1310.2,OK,rt
+01:57:10,qms.ru,OK,200,GET,504.9,OK,rt
+01:57:10,rutube.ru,HTTP_ERR,0,GET,0,Response error 400,rutube
+01:57:10,rutubelist.ru,RST,0,GET,0,Connection reset by peer,rutube
+01:57:10,ruvds.com,SSL_ERR,0,GET,0,SSL handshake failed,ruvds
+01:57:10,rzd.ru,OK,200,GET,990.3,,rzd
+01:57:10,rzd-bonus.ru,OK,200,GET,169.2,OK,rzd
+01:57:10,dzvr.ru,UNKNOWN,0,GET,0,TimeoutError,rzd
+01:57:10,samokat.ru,OK,200,GET,149.2,OK,samokat
+01:57:10,sev.ru,SSL_ERR,0,GET,0,SSL handshake failed,sevru
+01:57:10,sleza.media,OK,200,GET,322.8,OK,sleza
+01:57:10,smotrim.ru,OK,200,GET,144.4,OK,smotrim
+01:57:10,t2.ru,HTTP_ERR,503,GET,168.7,503 Service Temporarily Unavailable,t2
+01:57:10,targetads.io,OK,200,GET,290.1,OK,targetads
+01:57:10,tass.ru,OK,200,GET,159.1,OK,tass
+01:57:10,taxsee.com,OK,200,GET,231.9,OK,taxsee
+01:57:10,tbank.ru,SSL_ERR,0,GET,0,SSL handshake failed,tbank
+01:57:10,cdn-tinkoff.ru,HTTP_ERR,403,GET,203.6,403 Forbidden,tbank
+01:57:10,tbank-online.com,SSL_ERR,0,GET,0,SSL handshake failed,tbank
+01:57:10,timeweb.com,OK,200,GET,222.1,OK,timeweb
+01:57:10,timeweb.cloud,OK,200,GET,940.5,OK,timeweb
+01:57:10,tnt-online.ru,OK,200,GET,191.4,OK,tnt
+01:57:10,topdelivery.ru,OK,200,GET,488.1,OK,topdelivery
+01:57:10,tutu.ru,OK,200,GET,621.7,OK,tutu
+01:57:10,tu-tu.ru,HTTP_ERR,403,GET,172.9,403 Forbidden,tutu
+01:57:10,usedesk.ru,OK,200,GET,343.2,OK,usedesk
+01:57:10,uxfeedback.ru,OK,200,GET,207.8,OK,uxfeedback
+01:57:10,vgtrk.ru,OK,200,GET,200.1,OK,vgtrk
+01:57:10,victoria-group.ru,OK,200,GET,508.7,OK,victoria-group
+01:57:10,mvk.com,OK,200,GET,702.8,OK,vk
+01:57:10,userapi.com,OK,200,GET,800.9,OK,vk
+01:57:10,vk-apps.com,OK,200,GET,267.7,OK,vk
+01:57:10,vk-apps.ru,OK,200,GET,270.4,OK,vk
+01:57:10,vk-cdn.me,SSL_ERR,0,GET,0,SSL handshake failed,vk
+01:57:10,vkcloud-static.ru,HTTP_ERR,503,GET,1290.4,503 Service Unavailable,vk
+01:57:10,vk-portal.net,HTTP_ERR,404,GET,179.5,404 Not Found,vk
+01:57:10,vk.cc,OK,200,GET,1356.6,OK,vk
+01:57:10,vk.com,OK,200,GET,520.3,OK,vk
+01:57:10,vk.company,OK,200,GET,341.1,OK,vk
+01:57:10,vk.design,OK,200,GET,1105.6,OK,vk
+01:57:10,vk.link,OK,200,GET,430.4,OK,vk
+01:57:10,vk.me,OK,200,GET,406.0,OK,vk
+01:57:10,vk.ru,OK,200,GET,462.9,OK,vk
+01:57:10,vk.team,OK,200,GET,595.8,OK,vk
+01:57:10,vkontakte.ru,OK,200,GET,741.0,OK,vk
+01:57:10,vkuseraudio.com,HTTP_ERR,418,GET,447.9,418 ,vk
+01:57:10,vkuseraudio.net,HTTP_ERR,418,GET,271.3,418 ,vk
+01:57:10,vkuseraudio.ru,HTTP_ERR,418,GET,254.3,418 ,vk
+01:57:10,vkuserlive.net,HTTP_ERR,404,GET,190.2,404 Not Found,vk
+01:57:10,vkuserphoto.ru,HTTP_ERR,418,GET,412.7,418 ,vk
+01:57:10,vkuservideo.com,HTTP_ERR,418,GET,411.3,418 ,vk
+01:57:10,vkuservideo.net,HTTP_ERR,418,GET,259.1,418 ,vk
+01:57:10,vkuservideo.ru,HTTP_ERR,418,GET,403.3,418 ,vk
+01:57:10,vkvideo.ru,OK,200,GET,716.4,OK,vk
+01:57:10,vkusnoitochka.ru,OK,200,GET,542.3,OK,vkusnoitochka
+01:57:10,vkusvill.ru,OK,200,GET,964.8,OK,vkusvill
+01:57:10,vtb.ru,UNKNOWN,0,GET,0,TimeoutError,vtb
+01:57:10,wb.ru,HTTP_ERR,498,GET,400.8,498 ,wb
+01:57:10,wildberries.ru,HTTP_ERR,498,GET,208.5,498 ,wb
+01:57:10,whoosh.bike,OK,200,GET,214.4,OK,whoosh
+01:57:10,api.whoosh.bike,HTTP_ERR,403,GET,238.8,403 Forbidden,whoosh
+01:57:10,wink.ru,HTTP_ERR,0,GET,0,Response error 400,wink
+01:57:10,restream-media.net,DNS_ERR,0,-,0,Domain not resolved,wink
+01:57:10,5ka.ru,OK,200,GET,160.6,OK,x5
+01:57:10,5post.market,OK,200,GET,350.7,OK,x5
+01:57:10,chizhik.club,OK,200,GET,180.8,OK,x5
+01:57:10,clubx5.ru,RST,0,GET,0,Connection reset by peer,x5
+01:57:10,dialogx5.ru,UNKNOWN,0,GET,0,TimeoutError,x5
+01:57:10,e5.ru,OK,200,GET,217.8,OK,x5
+01:57:10,fivepost.ru,OK,200,GET,258.8,OK,x5
+01:57:10,idx5.ru,OK,200,GET,382.8,OK,x5
+01:57:10,jx5.ru,OK,200,GET,162.1,OK,x5
+01:57:10,keyx5.ru,UNKNOWN,0,GET,0,TimeoutError,x5
+01:57:10,mnogolososya.ru,OK,200,GET,249.1,OK,x5
+01:57:10,myapelsin.ru,OK,200,GET,206.0,OK,x5
+01:57:10,okolo.app,HTTP_ERR,0,GET,0,Response error 400,x5
+01:57:10,perekrestok.ru,OK,200,GET,183.1,OK,x5
+01:57:10,x5.ru,OK,200,GET,801.2,OK,x5
+01:57:10,x5.tech,OK,200,GET,357.6,OK,x5
+01:57:10,x5club.ru,OK,200,GET,326.5,OK,x5
+01:57:10,x5id.ru,OK,200,GET,192.8,OK,x5
+01:57:10,x5l.ru,OK,200,GET,207.0,OK,x5
+01:57:10,x5paket.ru,OK,200,GET,192.3,OK,x5
+01:57:10,x5q.ru,OK,200,GET,209.3,OK,x5
+01:57:10,x5w.ru,SSL_ERR,0,GET,0,SSL handshake failed,x5
+01:57:10,tsx.x5static.net,OK,200,GET,217.3,OK,x5
+01:57:10,яндекс.рф,HTTP_ERR,400,GET,221.9,400 Bad request,yandex
+01:57:10,xn--d1acpjx3f.xn--p1ai,HTTP_ERR,400,GET,122.4,400 Bad request,yandex
+01:57:10,adfox.ru,OK,200,GET,662.6,Ok,yandex
+01:57:10,rostaxi.org,OK,200,GET,875.7,Ok,yandex
+01:57:10,turbopages.org,HTTP_ERR,404,GET,228.3,404 Not found,yandex
+01:57:10,webvisor.com,OK,200,GET,237.5,OK,yandex
+01:57:10,ya.ru,OK,200,GET,267.1,Ok,yandex
+01:57:10,yandex-images.clstorage.net,HTTP_ERR,403,GET,212.9,403 Forbidden,yandex
+01:57:10,yandex-team.ru,OK,200,GET,726.7,OK,yandex
+01:57:10,yandex.aero,OK,200,GET,926.3,OK,yandex
+01:57:10,yandex.az,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.by,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.cloud,UNKNOWN,0,GET,0,TimeoutError,yandex
+01:57:10,yandex.co.il,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.com,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.com.am,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.com.ge,HTTP_ERR,400,GET,248.6,400 Bad request,yandex
+01:57:10,yandex.com.ru,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.com.tr,SSL_ERR,0,GET,0,SSL handshake failed,yandex
+01:57:10,yandex.de,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.ee,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.eu,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.fi,HTTP_ERR,400,GET,239.0,400 Bad request,yandex
+01:57:10,yandex.fr,HTTP_ERR,400,GET,221.8,400 Bad request,yandex
+01:57:10,yandex.jobs,OK,200,GET,248.5,Ok,yandex
+01:57:10,yandex.kz,SSL_ERR,0,GET,0,SSL handshake failed,yandex
+01:57:10,yandex.lt,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.lv,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.md,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.net,HTTP_ERR,400,GET,293.9,400 Bad request,yandex
+01:57:10,yandex.org,HTTP_ERR,400,GET,237.4,400 Bad request,yandex
+01:57:10,yandex.pl,HTTP_ERR,400,GET,233.1,400 Bad request,yandex
+01:57:10,yandex.ru,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.st,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.tj,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.tm,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandex.tr,SSL_ERR,0,GET,0,SSL handshake failed,yandex
+01:57:10,yandex.uz,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yandexadexchange.net,HTTP_ERR,404,GET,239.2,404 Not Found,yandex
+01:57:10,yastat.net,HTTP_ERR,0,GET,0,Response error 400,yandex
+01:57:10,yastatic.net,HTTP_ERR,400,GET,954.4,400 Bad request,yandex
+01:57:10,skcrtxr.com,UNKNOWN,0,GET,0,TimeoutError,yandex
+01:57:10,kinopoisk.ru,HTTP_ERR,400,GET,277.5,400 Bad request,yandex
+01:57:10,kinopoisk-ru.clstorage.net,HTTP_ERR,403,GET,229.7,403 Forbidden,yandex
+01:57:10,inappstory.ru,OK,200,GET,481.0,OK,yandex
+01:57:10,zentotem.net,OK,200,GET,234.4,OK,zentotem

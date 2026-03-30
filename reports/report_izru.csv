@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,iz.ru,OK,200,GET,243.8,OK

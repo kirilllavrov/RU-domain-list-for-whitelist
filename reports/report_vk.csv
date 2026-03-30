@@ -1,0 +1,26 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,mvk.com,OK,200,GET,702.8,OK
+01:57:10,userapi.com,OK,200,GET,800.9,OK
+01:57:10,vk-apps.com,OK,200,GET,267.7,OK
+01:57:10,vk-apps.ru,OK,200,GET,270.4,OK
+01:57:10,vk-cdn.me,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,vkcloud-static.ru,HTTP_ERR,503,GET,1290.4,503 Service Unavailable
+01:57:10,vk-portal.net,HTTP_ERR,404,GET,179.5,404 Not Found
+01:57:10,vk.cc,OK,200,GET,1356.6,OK
+01:57:10,vk.com,OK,200,GET,520.3,OK
+01:57:10,vk.company,OK,200,GET,341.1,OK
+01:57:10,vk.design,OK,200,GET,1105.6,OK
+01:57:10,vk.link,OK,200,GET,430.4,OK
+01:57:10,vk.me,OK,200,GET,406.0,OK
+01:57:10,vk.ru,OK,200,GET,462.9,OK
+01:57:10,vk.team,OK,200,GET,595.8,OK
+01:57:10,vkontakte.ru,OK,200,GET,741.0,OK
+01:57:10,vkuseraudio.com,HTTP_ERR,418,GET,447.9,418 
+01:57:10,vkuseraudio.net,HTTP_ERR,418,GET,271.3,418 
+01:57:10,vkuseraudio.ru,HTTP_ERR,418,GET,254.3,418 
+01:57:10,vkuserlive.net,HTTP_ERR,404,GET,190.2,404 Not Found
+01:57:10,vkuserphoto.ru,HTTP_ERR,418,GET,412.7,418 
+01:57:10,vkuservideo.com,HTTP_ERR,418,GET,411.3,418 
+01:57:10,vkuservideo.net,HTTP_ERR,418,GET,259.1,418 
+01:57:10,vkuservideo.ru,HTTP_ERR,418,GET,403.3,418 
+01:57:10,vkvideo.ru,OK,200,GET,716.4,OK

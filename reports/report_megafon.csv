@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,megafon.ru,OK,200,GET,1518.5,OK

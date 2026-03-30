@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,2gis.com,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,2gis.ru,UNKNOWN,0,GET,0,TimeoutError
+01:57:10,2gis.ae,HTTP_ERR,0,GET,0,Response error 400

@@ -1,0 +1,46 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,яндекс.рф,HTTP_ERR,400,GET,221.9,400 Bad request
+01:57:10,xn--d1acpjx3f.xn--p1ai,HTTP_ERR,400,GET,122.4,400 Bad request
+01:57:10,adfox.ru,OK,200,GET,662.6,Ok
+01:57:10,rostaxi.org,OK,200,GET,875.7,Ok
+01:57:10,turbopages.org,HTTP_ERR,404,GET,228.3,404 Not found
+01:57:10,webvisor.com,OK,200,GET,237.5,OK
+01:57:10,ya.ru,OK,200,GET,267.1,Ok
+01:57:10,yandex-images.clstorage.net,HTTP_ERR,403,GET,212.9,403 Forbidden
+01:57:10,yandex-team.ru,OK,200,GET,726.7,OK
+01:57:10,yandex.aero,OK,200,GET,926.3,OK
+01:57:10,yandex.az,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.by,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.cloud,UNKNOWN,0,GET,0,TimeoutError
+01:57:10,yandex.co.il,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.com,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.com.am,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.com.ge,HTTP_ERR,400,GET,248.6,400 Bad request
+01:57:10,yandex.com.ru,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.com.tr,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,yandex.de,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.ee,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.eu,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.fi,HTTP_ERR,400,GET,239.0,400 Bad request
+01:57:10,yandex.fr,HTTP_ERR,400,GET,221.8,400 Bad request
+01:57:10,yandex.jobs,OK,200,GET,248.5,Ok
+01:57:10,yandex.kz,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,yandex.lt,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.lv,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.md,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.net,HTTP_ERR,400,GET,293.9,400 Bad request
+01:57:10,yandex.org,HTTP_ERR,400,GET,237.4,400 Bad request
+01:57:10,yandex.pl,HTTP_ERR,400,GET,233.1,400 Bad request
+01:57:10,yandex.ru,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.st,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.tj,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.tm,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandex.tr,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,yandex.uz,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yandexadexchange.net,HTTP_ERR,404,GET,239.2,404 Not Found
+01:57:10,yastat.net,HTTP_ERR,0,GET,0,Response error 400
+01:57:10,yastatic.net,HTTP_ERR,400,GET,954.4,400 Bad request
+01:57:10,skcrtxr.com,UNKNOWN,0,GET,0,TimeoutError
+01:57:10,kinopoisk.ru,HTTP_ERR,400,GET,277.5,400 Bad request
+01:57:10,kinopoisk-ru.clstorage.net,HTTP_ERR,403,GET,229.7,403 Forbidden
+01:57:10,inappstory.ru,OK,200,GET,481.0,OK

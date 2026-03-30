@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,ddos-guard.net,SSL_ERR,0,GET,0,SSL handshake failed

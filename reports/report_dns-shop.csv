@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,dns-shop.ru,HTTP_ERR,401,GET,176.6,401 Unauthorized

@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,jivo.ru,OK,200,GET,330.3,OK
+01:57:10,jivochat.com,OK,200,GET,683.0,OK
+01:57:10,jivosite.com,OK,200,GET,286.7,OK

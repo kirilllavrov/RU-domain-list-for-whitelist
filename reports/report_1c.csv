@@ -1,0 +1,5 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,1cfresh.com,OK,200,GET,271.3,
+01:57:10,1c.ru,OK,200,GET,228.3,OK
+01:57:10,bitrix24.ru,UNKNOWN,0,GET,0,TimeoutError
+01:57:10,1c-bitrix.ru,SSL_ERR,0,GET,0,SSL handshake failed

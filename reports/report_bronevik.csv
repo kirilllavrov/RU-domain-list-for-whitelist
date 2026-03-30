@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,bronevik.com,OK,200,GET,518.8,OK

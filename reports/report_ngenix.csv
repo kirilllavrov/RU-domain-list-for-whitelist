@@ -1,0 +1,2 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,ngenix.net,HTTP_ERR,503,GET,195.6,503 Service Temporarily Unavailable

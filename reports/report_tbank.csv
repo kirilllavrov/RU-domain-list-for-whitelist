@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,tbank.ru,SSL_ERR,0,GET,0,SSL handshake failed
+01:57:10,cdn-tinkoff.ru,HTTP_ERR,403,GET,203.6,403 Forbidden
+01:57:10,tbank-online.com,SSL_ERR,0,GET,0,SSL handshake failed

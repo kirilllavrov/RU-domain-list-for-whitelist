@@ -1,0 +1,4 @@
+timestamp,domain,status,code,method,rtt_ms,details
+01:57:10,magnit.ru,OK,200,GET,725.7,OK
+01:57:10,mm.ru,OK,200,GET,199.7,OK
+01:57:10,kazanexpress.ru,OK,200,GET,440.5,OK
