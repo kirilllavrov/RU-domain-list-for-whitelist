@@ -137,9 +137,8 @@ def preprocess_file(filepath: Path) -> List[Dict]:
                     'status': None,
                 })
     
-    # ✅ ИСПРАВЛЕНО: lines_data + двоеточие
     with open(filepath, 'w', encoding='utf-8') as f:
-        for item in lines_data:  # ← Было: lines_ (ошибка)
+        for item in lines_data:
             if item['is_domain']:
                 f.write(item['domain'] + '\n')
             else:
