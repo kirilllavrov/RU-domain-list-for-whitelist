@@ -1,6 +1,7 @@
 include:1c
 include:1cloud
 include:1tv
+include:24htv
 include:2gis
 include:aeroflot
 include:alfabank
@@ -9,6 +10,7 @@ include:avito
 include:avru
 include:beeline
 include:bronevik
+include:cdek
 include:cdnvideo
 include:citydrive
 include:csat
@@ -44,10 +46,12 @@ include:mailru
 include:max
 include:megafon
 include:megamarket
+include:memealerts
 include:mindbox
 include:moex
 include:motivtelecom
 include:mts
+include:netmonet
 include:newizv
 include:ngenix
 include:ntv
@@ -65,8 +69,10 @@ include:rutube
 include:ruvds
 include:rzd
 include:samokat
+include:sber
 include:sevru
 include:sleza
+include:smartmed
 include:smotrim
 include:t2
 include:targetads
